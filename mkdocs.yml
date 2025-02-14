@@ -1,0 +1,38 @@
+site_name: HAMED
+theme:
+  name: material
+  custom_dir: docs/imatges
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.code.download
+    - footer.hide
+    - palette.toggle
+  
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: light green  # Changed from light blue to light green
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+
+nav:
+  - Welcome: 'index.md'
+  - Sprint4: 'Sprint4.md'
