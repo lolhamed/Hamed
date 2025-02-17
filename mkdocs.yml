@@ -35,4 +35,6 @@ theme:
 
 nav:
   - Welcome: 'index.md'
-  - Sprint4: 'Sprint4.md'
+  - Sprint3:
+      - "Instal·lació": 'Sprint4.md'
+      - "creació ldap": 'install.md'
